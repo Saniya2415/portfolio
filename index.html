@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/05600f2bb7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p>Saniya Sawant</p>
+                <ul id="sidemenu">
+                    <li><a href="#header" class="icon">Home</a></li>
+                    <li><a href="#about" class="icon">About</a></li>
+                    <li><a href="#services" class="icon">Services</a></li>
+                    <li><a href="#portfolio" class="icon">Portfolio</a></li>
+                    <li><a href="#contact" class="icon">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hi, I'm Saniya <br>From Pune.</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="subtitle">About Me</h1>
+                    <p> "Motivated and detail-oriented
+                        computer engineering student
+                        with a solid foundation in
+                        software development, hardware
+                        integration, and system design.
+                        Seeking an internship to leverage
+                        my programming skills, problem
+                       solving abilities, and passion for
+                        innovation in contributing to
+                        cutting-edge projects and
+                        gaining practical industry
+                        experience."</p>
+                </div>
+                <div class="about-col-2">
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Volunteer Experience')">Volunteer Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Language')">Language</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>MySQL</li>
+                            <li>Core Java</li>
+                            <li>Python</li>
+                            <li>C & C++ programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Volunteer Experience">
+                        <p><span>SPRING FEST EVENT</span><br> 
+                            Worked as a Execution comity member</p>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <p> <span>SPPU UNIVERSITY</span> <br>
+                            Computer Engineering career, in
+                             progress. <br>
+                             At Smt Kasibai Navale College Of Engineering, Pune. <br>
+                            2022-2026</p>
+                    </div>
+                    <div class="tab-contents" id="Language">
+                        <ul>
+                            <li>Native Marathi</li>
+                            <li>Begineer Japanese</li>
+                            <li>English</li>
+                            <li>Hindi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-file"></i>
+                    <h2>Full Stack</h2>
+                    <p>I specialize in end-to-end Full-Stack Development, delivering robust, scalable, and user-centric web and mobile solutions. My expertise covers both the front-end and back-end aspects of development, ensuring seamless integration and high performance.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creating intuitive user interfaces for web and mobile platforms.
+                        Wireframing and prototyping with tools like Figma or Adobe XD.
+                        User experience (UX) research and optimization.
+                        Implementing responsive and accessible designs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Tic-tac-toe.png">
+                    <div class="layer">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>A two-player game on a 3x3 grid where players alternate marking "X" or "O" to form a row, column, or diagonal.</p>
+                        <a href="https://github.com/Saniya2415/My-Activities/tree/main/Tic_Tac_Toe"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Rock-paper-scissor.png">
+                    <div class="layer">
+                        <h3>Rock paper scissor Game</h3>
+                        <p>A two-player hand game where Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.</p>
+                        <a href="https://github.com/Saniya2415/My-Activities/tree/main/Stone_Paper_Scissor_Game"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>saniyasawant7956@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9322317956</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/saniya.tbh?igsh=MTI3ZWYybjc5ejB3Zg=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/saniya-sawant-717614274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Designed by @Saniya <i class="fa-regular fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwiGh7hGDsUGoPmg9RBkgzJlDl6q4frtrccCZxT_8PG6NKC0Xz2WjrnVRh5sXCHMxxU/exec';
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully !";
+            setTimeout(function(){
+                msg.innerHTML = "";
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
