@@ -397,12 +397,6 @@ nav .fa-solid{
 
 
 @media only screen and (max-width: 600px){
-    #header{
-        width: 100%;
-        background-image: url(IMG_0367.jpg);
-        background-size: cover;
-        background-position:center;
-    }
 
     nav p{
         font-size: 20px;
@@ -473,4 +467,31 @@ nav .fa-solid{
     display: block;
     font-size: 12px;
     padding: 10px 0;
+}
+
+@media only screen and (max-width: 310px){
+    #header{
+        width: 100%;
+        background-image: url(IMG_0367.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    #header{
+        width: 100%;
+        background-image: url(sanu.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    #header{
+        width: 100%;
+        background-image: url(sanu.jpg);
+        background-size: cover;
+        background-position:center;
+    }
 }
